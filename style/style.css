@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap");
+@font-face {
+  font-family: 'Red Hat Light';
+  src: url(../fonts/RedHatDisplay-Light.ttf), url(../fonts/RedHatDisplay-Light.woff), url(../fonts/RedHatDisplay-Light.woff2), url(../fonts/RedHatDisplay-Light.eot);
+}
+
+@font-face {
+  font-family: 'Red Hat Regular';
+  src: url(../fonts/RedHatDisplay-Regular.ttf), url(../fonts/RedHatDisplay-Regular.woff), url(../fonts/RedHatDisplay-Regular.woff2), url(../fonts/RedHatDisplay-Regular.eot);
+}
+
+@font-face {
+  font-family: 'Red Hat Black';
+  src: url(../fonts/RedHatDisplay-Black.ttf), url(../fonts/RedHatDisplay-Black.woff), url(../fonts/RedHatDisplay-Black.woff2), url(../fonts/RedHatDisplay-Black.eot);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #e0e8ff;
+  background-repeat: no-repeat;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: contain;
+  height: 100vh;
+}
+
+.box {
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 24px #7280a7;
+          box-shadow: 0 0 24px #7280a7;
+  background-color: white;
+}
+
+.header-img {
+  background-position: center;
+  padding-bottom: 30px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(../images/illustration-hero.svg);
+}
+
+.text {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.title {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.description {
+  font-family: 'Red Hat Light';
+  font-weight: bold;
+  color: #686666;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(114, 128, 167, 0.041);
+  width: 80%;
+  height: 95px;
+  margin-left: 30px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.icon-music {
+  width: 45px;
+  height: 45px;
+}
+
+.annual-plan h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  margin-left: 20px;
+}
+
+.annual-plan span {
+  font-family: 'Red Hat Light';
+  font-weight: bold;
+  margin-left: 20px;
+  color: #686666;
+}
+
+.change {
+  font-family: 'Red Hat Black';
+  color: #3829e0;
+}
+
+.change a:hover {
+  text-decoration: none;
+  color: #594de6;
+}
+
+.btn-proceed {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3829e0;
+  color: white;
+  border: none;
+  -webkit-box-shadow: 0px 5px 20px #998cd9;
+          box-shadow: 0px 5px 20px #998cd9;
+  width: 80%;
+  border-radius: 10px;
+  padding: 13px 5px;
+  margin: 25px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-proceed:hover {
+  background-color: #594de6;
+}
+
+.cancel {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cancel a {
+  text-decoration: none;
+  color: #686666;
+}
+
+.cancel a:hover {
+  color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .box {
+    width: 400px;
+    height: 630px;
+  }
+  .header-img {
+    width: 100%;
+    height: 213px;
+  }
+  .description {
+    font-size: 16px;
+    max-width: 70%;
+    margin: 0 auto 20px;
+  }
+  .change {
+    margin-left: 55px;
+  }
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .box {
+    width: 310px;
+    height: 540px;
+  }
+  .header-img {
+    background-size: 310px;
+    height: 150px;
+  }
+  .description {
+    font-size: 15px;
+    max-width: 75%;
+    margin: 0 auto 15px;
+  }
+  .annual-plan h3 {
+    font-size: 14px;
+  }
+  .annual-plan span {
+    font-size: 14px;
+  }
+  .change {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .container {
+    height: 100vmax;
+  }
+  .box {
+    width: 440px;
+    height: 540px;
+  }
+  .header-img {
+    background-size: 310px;
+    height: 150px;
+  }
+  .description {
+    font-size: 15px;
+    max-width: 75%;
+    margin: 0 auto 15px;
+  }
+  .icon-music {
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+  }
+  .annual-plan h3 {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .annual-plan span {
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  .change {
+    font-size: 16px;
+    margin-left: 50px;
+  }
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .box {
+    width: 290px;
+    height: 540px;
+  }
+  .header-img {
+    background-size: 310px;
+    height: 150px;
+  }
+  .description {
+    font-size: 15px;
+    max-width: 75%;
+    margin: 0 auto 15px;
+  }
+  .annual-plan h3 {
+    font-size: 14px;
+  }
+  .annual-plan span {
+    font-size: 14px;
+  }
+  .change {
+    font-size: 13px;
+    margin-left: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
