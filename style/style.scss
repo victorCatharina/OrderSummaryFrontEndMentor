@@ -253,38 +253,58 @@ $Primary-color2: hsl(245, 75%, 52%);
 }
 }
 
-/* #### iPhone 4+ Portrait or Landscape #### */
-@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
-    
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+.container{
+    align-items: flex-start;
+}
+
 .box{
-    width: 290px;
-    height: 540px;
+    width: 500px;
+    height: 560px;
+    margin-top: 30px;
+
 }
 
 .header-img{
-    background-size: 310px;
-    height: 150px;
+    background-size: 370px;
+    height: 170px;
+}
+
+.text{
+    padding-top: 5%;
 }
 
 .description{
-    font-size: 15px;
-    max-width: 75%;
-    margin: 0 auto 15px;    
+    font-size: 18px;
+    max-width: 80%;
+    padding-bottom: 15px;
+    margin: 0 auto 10px;    
+}
+
+.icon-music{
+    margin-right: 40px;
+}
+
+.plan{
+    margin-left: 55px;
 }
 
 .annual-plan{
 
+    font-size: 18px;
     h3{
-        font-size: 14px;
+       margin-left: 5px;
     }
 
     span{
-        font-size: 14px;
+        margin-left: 5px;
     }
 }
 
 .change{
-    font-size: 13px;
-    margin-left: 20px;
+    font-size: 18px;
+    margin-left: 65px;
 }
 }
