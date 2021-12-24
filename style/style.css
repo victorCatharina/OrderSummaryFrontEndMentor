@@ -151,6 +151,15 @@
   color: black;
 }
 
+.footer {
+  text-align: center;
+}
+
+.attribution {
+  font-family: 'Red Hat Regular';
+  font-size: 12px;
+}
+
 @media screen and (min-width: 1024px) {
   .box {
     width: 400px;
