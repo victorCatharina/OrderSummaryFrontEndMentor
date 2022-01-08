@@ -87,7 +87,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 
 .annual-plan{
 
-    h3{
+    h2{
         font-family: 'Red Hat Display', sans-serif;
         margin-left: 20px;
     }
@@ -145,13 +145,15 @@ $Primary-color2: hsl(245, 75%, 52%);
     }
 }
 
-.footer{
-    text-align: center;
-}
-
 .attribution{
     font-family: 'Red Hat Regular';
-    font-size: 12px;
+    font-size: 11px;
+    margin-top: 5em;
+    text-align: center;
+
+    a{
+        color: hsl(228, 45%, 44%);
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -198,7 +200,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 
 .annual-plan{
 
-    h3{
+    h2{
         font-size: 14px;
     }
 
@@ -210,6 +212,10 @@ $Primary-color2: hsl(245, 75%, 52%);
 .change{
     font-size: 13px;
     margin-left: 20px;
+}
+
+.attribution{
+    font-size: 9px;
 }
 }
 
@@ -244,7 +250,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 
 .annual-plan{
 
-    h3{
+    h2{
         font-size: 16px;
         margin-left: 5px;
     }
@@ -303,7 +309,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 .annual-plan{
 
     font-size: 18px;
-    h3{
+    h2{
        margin-left: 5px;
     }
 

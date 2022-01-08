@@ -85,7 +85,7 @@
   height: 45px;
 }
 
-.annual-plan h3 {
+.annual-plan h2 {
   font-family: 'Red Hat Display', sans-serif;
   margin-left: 20px;
 }
@@ -151,13 +151,15 @@
   color: black;
 }
 
-.footer {
+.attribution {
+  font-family: 'Red Hat Regular';
+  font-size: 11px;
+  margin-top: 5em;
   text-align: center;
 }
 
-.attribution {
-  font-family: 'Red Hat Regular';
-  font-size: 12px;
+.attribution a {
+  color: #3e52a3;
 }
 
 @media screen and (min-width: 1024px) {
@@ -194,7 +196,7 @@
     max-width: 75%;
     margin: 0 auto 15px;
   }
-  .annual-plan h3 {
+  .annual-plan h2 {
     font-size: 14px;
   }
   .annual-plan span {
@@ -203,6 +205,9 @@
   .change {
     font-size: 13px;
     margin-left: 20px;
+  }
+  .attribution {
+    font-size: 9px;
   }
 }
 
@@ -229,7 +234,7 @@
     height: 50px;
     margin-right: 50px;
   }
-  .annual-plan h3 {
+  .annual-plan h2 {
     font-size: 16px;
     margin-left: 5px;
   }
@@ -277,7 +282,7 @@
   .annual-plan {
     font-size: 18px;
   }
-  .annual-plan h3 {
+  .annual-plan h2 {
     margin-left: 5px;
   }
   .annual-plan span {
