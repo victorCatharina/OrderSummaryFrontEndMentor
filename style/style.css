@@ -90,7 +90,7 @@
   margin-left: 20px;
 }
 
-.annual-plan span {
+.annual-plan p {
   font-family: 'Red Hat Light';
   font-weight: bold;
   margin-left: 20px;
@@ -199,7 +199,7 @@
   .annual-plan h2 {
     font-size: 14px;
   }
-  .annual-plan span {
+  .annual-plan p {
     font-size: 14px;
   }
   .change {
@@ -238,7 +238,7 @@
     font-size: 16px;
     margin-left: 5px;
   }
-  .annual-plan span {
+  .annual-plan p {
     font-size: 16px;
     margin-left: 5px;
   }
@@ -285,7 +285,7 @@
   .annual-plan h2 {
     margin-left: 5px;
   }
-  .annual-plan span {
+  .annual-plan p {
     margin-left: 5px;
   }
   .change {
