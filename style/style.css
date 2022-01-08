@@ -162,7 +162,7 @@
   color: #3e52a3;
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .box {
     width: 400px;
     height: 630px;
@@ -182,7 +182,7 @@
 }
 
 /* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+@media (max-device-width: 480px) and (orientation: portrait) {
   .box {
     width: 310px;
     height: 540px;
@@ -212,7 +212,7 @@
 }
 
 /* #### Mobile Phones Landscape #### */
-@media screen and (max-device-width: 640px) and (orientation: landscape) {
+@media (max-device-width: 640px) and (orientation: landscape) {
   .container {
     height: 100vmax;
   }
@@ -249,7 +249,7 @@
 }
 
 /* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
   .container {
     -webkit-box-align: start;
         -ms-flex-align: start;

@@ -156,7 +156,7 @@ $Primary-color2: hsl(245, 75%, 52%);
     }
 }
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
 
 .box{
     width: 400px;
@@ -180,7 +180,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 }
 
 /* #### Mobile Phones Portrait #### */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
+@media (max-device-width: 480px) and (orientation: portrait){
     
 .box{
     width: 310px;
@@ -220,7 +220,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 }
 
 /* #### Mobile Phones Landscape #### */
-@media screen and (max-device-width: 640px) and (orientation: landscape){
+@media (max-device-width: 640px) and (orientation: landscape){
 
 .container{
     height: 100vmax;
@@ -269,7 +269,7 @@ $Primary-color2: hsl(245, 75%, 52%);
 }
 
 /* #### Tablets Portrait or Landscape #### */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media (min-device-width: 768px) and (max-device-width: 1024px){
 
 .container{
     align-items: flex-start;
